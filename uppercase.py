@@ -1,2 +1,3 @@
-a=input("Enter anything to convert in upper case :")
-print (a.upper())
+a="gaurav"
+b=a.upper()
+print(b)
