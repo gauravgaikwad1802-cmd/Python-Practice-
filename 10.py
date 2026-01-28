@@ -1,7 +1,6 @@
-n=int(input("Enter Number :"))
-sum=0
-while n>0:
-    digit=n%10
-    sum=sum+digit
-    n=n//10
-print(sum)
+#joining path
+import os
+dir_name="folder"
+file_name="file.txt"
+full_path=os.path.join(dir_name,file_name)
+print(full_path)

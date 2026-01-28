@@ -1,7 +1,4 @@
-n=int(input(""))
-count=0
-while n>0:
-    n=n//10
-    count+=1
-print(count)
-
+with open('example.txt','r') as source_file:
+    content=source_file.read()
+with open('destination.txt','w') as destination_file:
+    destination_file.write(content)

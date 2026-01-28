@@ -1,6 +1,3 @@
-n=int(input(""))
-count=1
-while count<n:
-    if count%2!=0:
-        print(count)
-    count+=1
+#writing a file (overwriting)
+with open('example.txt','w') as file:
+    file.write("hello World ! \n")

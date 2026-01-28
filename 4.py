@@ -1,7 +1,3 @@
-n=int(input(""))
-count=1
-sum=0
-while count<=n:
-    sum+=count
-    count+=1
-print(sum)
+#write a file without overwriting
+with open('example.txt','a') as file:
+     file.write("append operation taking place !")

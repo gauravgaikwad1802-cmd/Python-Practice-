@@ -1,7 +1,4 @@
-n=int(input(""))
-fact=1
-i=1
-while i<=n:
-    fact=fact*i
-    i+=1
-print(fact)
+# writing a list of line to file
+lines=['first line \n','Second line \n','third line \n']
+with open ('example.txt','a') as file:
+    file.writelines(lines)

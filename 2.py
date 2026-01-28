@@ -1,6 +1,4 @@
-n=int(input(""))
-count=1
-while count<n:
-    if count%2==0:
-        print(count)
-    count+=1
+#read a file line by line 
+with open('example.txt','r') as file:
+    for line in file :
+        print(line.strip())  # strip remove new line charachter

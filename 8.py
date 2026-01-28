@@ -1,11 +1,9 @@
-n=int(input(""))
-orignal=n
-rev=0
-while n>0:
-   digit=n%10
-   rev=rev*10+digit
-   n=n//10
-if orignal==rev:
-   print("the given Number is Palindrome")
-else:
-   print("the given number is Not Palindrome")
+#create a new directory 
+import os   # 👈 must be added
+
+# create a new directory
+new_directory = "package"
+
+os.mkdir(new_directory)
+
+print("Directory created:", new_directory)

@@ -1,3 +1,6 @@
-n=int(input(""))
-for i in range(1,11):
-    print(n,"x",i,"=",n*i)
+#joining path
+import os
+dir_name="folder"
+file_name="file.txt"
+full_path=os.path.join(os.getcwd(),dir_name,file_name)
+print(full_path)

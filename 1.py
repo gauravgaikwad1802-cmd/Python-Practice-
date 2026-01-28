@@ -1,5 +1,4 @@
-n=int(input("Enter the Number You want to print from 1 to N :"))
-count=0
-while count<n:
-    count=count+1
-    print(count)
+#Read a whole File
+with open('example.txt','r') as file :
+    content=file.read()
+    print(content)
